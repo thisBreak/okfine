@@ -1,0 +1,9 @@
+eureka:
+  client:
+    service-url:
+      defaultZone:
+        http://cc2255:xx2255@localhost:8761/eureka,
+        http://cc2255:xx2255@localhost:8762/eureka
+spring:
+  application:
+    name: client
